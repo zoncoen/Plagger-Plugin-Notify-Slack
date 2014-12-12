@@ -4,7 +4,7 @@ requires 'Plagger';
 requires 'LWP::UserAgent';
 requires 'LWP::Protocol::https';
 requires 'JSON';
-requires 'Enconde';
+requires 'Encode';
 
 on 'test' => sub {
     requires 'Test::More', '0.98';
