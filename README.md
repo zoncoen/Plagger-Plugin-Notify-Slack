@@ -1,14 +1,38 @@
 # NAME
 
-Plagger::Plugin::Notify::Slack - It's new $module
+Plagger::Plugin::Notify::Slack - Notify feed updates to Slack
 
 # SYNOPSIS
 
-    use Plagger::Plugin::Notify::Slack;
+    - module: Notify::Slack
+      config:
+        webhook_url: {incoming_webhook_url}
+
+# CONFIG
+
+- webhook\_url
+
+    Inconming webhooks URL. (required)
+
+- username
+
+    Username for your bot.
+
+- icon\_url
+
+    Icon URL for your bot.
+
+- icon\_emoji
+
+    Icon emoji for your bot.
+
+- channel
+
+    Channnel for notifying.
 
 # DESCRIPTION
 
-Plagger::Plugin::Notify::Slack is ...
+Plagger::Plugin::Notify::Slack allows you to notify feed updates to Slack channels using Inconming Webhooks.
 
 # LICENSE
 

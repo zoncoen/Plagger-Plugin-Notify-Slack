@@ -1,5 +1,5 @@
 {
-   "abstract" : "It's new $module",
+   "abstract" : "Notify feed updates to Slack",
    "author" : [
       "zoncoen <zoncoen@gmail.com>"
    ],
@@ -42,6 +42,11 @@
       },
       "runtime" : {
          "requires" : {
+            "Enconde" : "0",
+            "JSON" : "0",
+            "LWP::Protocol::https" : "0",
+            "LWP::UserAgent" : "0",
+            "Plagger" : "0",
             "perl" : "5.008001"
          }
       },
@@ -52,6 +57,17 @@
       }
    },
    "release_status" : "unstable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/zoncoen/Plagger-Plugin-Notify-Slack/issues"
+      },
+      "homepage" : "https://github.com/zoncoen/Plagger-Plugin-Notify-Slack",
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/zoncoen/Plagger-Plugin-Notify-Slack.git",
+         "web" : "https://github.com/zoncoen/Plagger-Plugin-Notify-Slack"
+      }
+   },
    "version" : "0.01",
    "x_authority" : "cpan:ZONCOEN"
 }
