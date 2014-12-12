@@ -64,6 +64,8 @@ Plagger::Plugin::Notify::Slack - Notify feed updates to Slack
 
 =head1 CONFIG
 
+=over
+
 =item webhook_url
 
 Inconming webhooks URL. (required)
@@ -83,6 +85,8 @@ Icon emoji for your bot.
 =item channel
 
 Channnel for notifying.
+
+=back
 
 =head1 DESCRIPTION
 
